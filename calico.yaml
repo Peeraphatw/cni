@@ -4600,8 +4600,8 @@ spec:
             # no effect. This should fall within `--cluster-cidr`.
             - name: CALICO_IPV4POOL_CIDR
               value: "192.168.0.0/16"
-            - name: IP_AUTODETECTION_METHOD
-              value: "interface=ens.*"
+            # - name: IP_AUTODETECTION_METHOD
+            #   value: "interface=ens.*"
             # Disable file logging so `kubectl logs` works.
             - name: CALICO_DISABLE_FILE_LOGGING
               value: "true"
